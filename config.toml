@@ -1,0 +1,22 @@
+[theme]
+base = "light"
+primaryColor = "#e4572e"
+backgroundColor = "#faf6ef"
+secondaryBackgroundColor = "#f1eadb"
+textColor = "#1c1917"
+font = "sans serif"
+
+[server]
+# Tidak memantau seluruh folder (node_modules, artifacts, cache Hardhat) -> start & rerun jauh lebih ringan
+fileWatcherType = "none"
+runOnSave = false
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+fastReruns = true
+
+[client]
+toolbarMode = "minimal"
